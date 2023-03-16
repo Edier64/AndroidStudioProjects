@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         int nro1=Integer.parseInt(valor1);
         int nro2=Integer.parseInt(valor2);
         if (valor1.equals("0") || valor2.equals("0")){
-            String resu = "No es posible realizar una operacion con 0";
-            tv1.setText(resu);
+                String resu = "No es posible realizar una operacion con 0";
+                tv1.setText(resu);
         }else if (valor1.isEmpty() || valor2.isEmpty()){
             String resu = "Debes escribir 2 numeros para operar";
             tv1.setText(resu);
